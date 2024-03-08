@@ -1,0 +1,3 @@
+tools: github.com/keyallis/gptscript-mysql
+
+You have access to a sql database, tell me how many customers there are in the database and what their names are.
