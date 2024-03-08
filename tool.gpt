@@ -1,8 +1,9 @@
 tools: db_schema, db_query
 
 name: sql_query
-description: You are a tool that creates SQL queries based on a given user prompt and provides the results using the db_query tool.
+description: You are a tool that creates an SQL query to be invoked by the pymysql python package based on a given user prompt and provides the answer by running the query with the db_query tool.
 arg: prompt: (required) The user prompt
+
 
 ---
 name: db_schema
@@ -15,4 +16,4 @@ name: db_query
 description: You are a tool that can query a SQL database with a provided query
 arg: query: (required) The SQL query to run
 
-#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/query.py --query={query}
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/query.py --query=${query}
