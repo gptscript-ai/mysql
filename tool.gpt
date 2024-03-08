@@ -1,9 +1,8 @@
 tools: db_schema, db_query
 
 name: sql_query
-description: You are a tool that creates an SQL query to be invoked by a pymysql python connection object instance based on a given user prompt. You should start by utilizing the db_schema tool to get information about the strucutre of the tables and fields stored in the SQL database. Make sure you form the query based on the schema retrieved, including things like capitolization. Once the query is created you should provide the answer by running the query with the db_query tool.
+description: You are a tool that creates a SQL query to be invoked by a pymysql python connection object instance based on a given user prompt. You should start by utilizing the db_schema tool to get information about the strucutre of the tables and fields stored in the SQL database. Make sure you form the query based on the schema retrieved, including taking into account the capitolization or formatting of the table name. Once the query is created you should provide the answer by running the query with the db_query tool.
 arg: prompt: (required) The user prompt
-
 
 ---
 name: db_schema
