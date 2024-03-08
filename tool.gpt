@@ -1,0 +1,10 @@
+tools: db_schema
+name: sql_query
+description: You are a tool that forms SQL queries based on a given user prompt
+arg: prompt: (required) The user prompt
+
+---
+name: db_schema
+description: You are a tool that can retrieve information about tables and columns from a mysql database
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/get_db_schema.py
