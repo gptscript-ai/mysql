@@ -1,5 +1,7 @@
 tools: github.com/keyallis/gptscript-mysql
 
-You have access to a sql database.
+Perform each step one by one, don't move on to the next step until current step is done.
 
-What are the names of the customers?
+1. Pull schema information from the table
+2. Form a query based on the schema information to give the customer names in alphabetical order
+3. Query the database and provide the answer
