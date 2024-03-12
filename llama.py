@@ -29,7 +29,7 @@ def main():
 
     username = os.environ["DB_USER"]
     password = os.environ["DB_PASS"]
-    hostname = os.environ["DB_HOST"]
+    host = os.environ["DB_HOST"]
     port = int(os.environ["DB_PORT"])
     database = os.environ["DB_NAME"]
 
