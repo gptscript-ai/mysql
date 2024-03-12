@@ -1,2 +1,4 @@
 pymysql
 argparse
+llama-index-core
+llama-index-embeddings-openai

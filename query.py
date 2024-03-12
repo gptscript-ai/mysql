@@ -2,8 +2,8 @@ import os
 import argparse
 import pymysql
 
-def execute_query(host: str, port: int, username: str, password: str, database: str, query: str):
-    # Connect to the MySQL database
+
+def execute_query(host, port, username, password, database, query):
     connection = pymysql.connect(host=host,
                                  port=port,
                                  user=username,
@@ -13,21 +13,17 @@ def execute_query(host: str, port: int, username: str, password: str, database: 
 
     try:
         with connection.cursor() as cursor:
-            # Execute the SQL query
             cursor.execute(query)
 
-            # Fetch and print the results
             results = cursor.fetchall()
             for row in results:
                 print(row)
 
     finally:
-        # Close the connection
         connection.close()
 
-if __name__ == "__main__":
 
-    # Pull env vars
+if __name__ == "__main__":
     username = os.environ["DB_USER"]
     password = os.environ["DB_PASS"]
     hostname = os.environ["DB_HOST"]

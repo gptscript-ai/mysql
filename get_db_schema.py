@@ -1,8 +1,8 @@
 import os
 import pymysql
-import argparse
 
-def get_schema_info(host: str, port: int, username: str, password: str, database: str):
+
+def get_schema_info(host, port, username, password, database):
     connection = pymysql.connect(host=host,
                                  port=port,
                                  user=username,
@@ -30,9 +30,8 @@ def get_schema_info(host: str, port: int, username: str, password: str, database
     finally:
         connection.close()
 
-if __name__ == "__main__":
 
-    # Pull env vars
+if __name__ == "__main__":
     username = os.environ["DB_USER"]
     password = os.environ["DB_PASS"]
     hostname = os.environ["DB_HOST"]

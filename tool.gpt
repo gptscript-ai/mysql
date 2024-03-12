@@ -1,8 +1,8 @@
-tools: db_schema, db_query
-
 name: sql_query
-description: You are a tool to retrieve data from a database. You should first learn about the strucutre of the database schema using the db_schema tool provided. Once you are familiar with the structure, you should create a SQL query to pass to the db_query tool and then answer the prompt. If the database does not contain information to answer the prompt you should inform the user that you don't have the necessary information.
+description:
 arg: prompt: (required) The user prompt
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/llama.py --query=${query}
 
 ---
 name: db_schema
