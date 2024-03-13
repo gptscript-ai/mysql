@@ -22,9 +22,7 @@ llm = OpenAI(
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Execute SQL query against a MySQL database')
-    parser.add_argument('--query', required=True, help='SQL query to execute')
-    args = parser.parse_args()
+    prompt = os.environ["prompt"]
 
     username = os.environ["DB_USER"]
     password = os.environ["DB_PASS"]
@@ -48,7 +46,7 @@ def main():
     query_engine = NLSQLTableQueryEngine(
         sql_database=sql_database, llm=llm
     )
-    response = query_engine.query(args.query)
+    response = query_engine.query(prompt)
 
     print(response)
 

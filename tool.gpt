@@ -2,4 +2,4 @@ name: sql_query
 description: You are a tool that generates a response based on the provided user prompt, the prompt should be passed as is and should not be changed at all.
 arg: prompt: (required) The user prompt
 
-#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py --query=${prompt}
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py
