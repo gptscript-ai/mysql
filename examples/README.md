@@ -24,13 +24,11 @@ To deploy a docker container containing a MYSQL container locally, run the follo
 
 ```bash
 docker run -d --name mysql_container -e MYSQL_ROOT_PASSWORD=$DB_PASS -p 3306:$DB_PORT mysql:latest
-# old
-docker run -d --name mysql_container -e MYSQL_ROOT_PASSWORD=your_root_password -p 3306:3306 mysql:latest
 ```
 
 ## Loading Data
 
-Pull the example data and load into the mysql database with the following command:
+We will utilize an [example database](https://github.com/datacharmer/test_db). Pull the example data and load into the mysql database with the following command:
 
 ```bash
 wget https://github.com/datacharmer/test_db/archive/refs/heads/master.zip && unzip master.zip && cd test_db-master && mysql -h $DB_HOST -P $DB_PORT -u $DB_USER --password=$DB_PASS -t < employees.sql
