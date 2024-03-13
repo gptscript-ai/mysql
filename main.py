@@ -14,7 +14,6 @@ from llama_index.llms.openai import OpenAI
 
 defaults = {
     "api_key": os.getenv("OPENAI_API_KEY"),
-    "inputs": ".",
 }
 
 llm = OpenAI(
@@ -47,12 +46,12 @@ def main():
     sql_database = SQLDatabase(engine)
 
     query_engine = NLSQLTableQueryEngine(
-        # sql_database=sql_database, tables=["city_stats"], llm=llm # create llm, exclude tables if able
         sql_database=sql_database, llm=llm
     )
     response = query_engine.query(args.query)
 
     print(response)
+
 
 if __name__ == "__main__":
     main()

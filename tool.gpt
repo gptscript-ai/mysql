@@ -1,18 +1,5 @@
 name: sql_query
-description:
+description: You are a tool that takes a user prompt and can answer it by utilizing information from a database.
 arg: prompt: (required) The user prompt
 
-#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/llama.py --query=${query}
-
----
-name: db_schema
-description: You are a tool that can retrieve information about tables and columns from a mysql database
-
-#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/get_db_schema.py
-
----
-name: db_query
-description: You are a tool that can query a mysql database with a provided query
-arg: query: (required) The SQL query to run
-
-#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/query.py --query=${query}
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py --query=${query}
