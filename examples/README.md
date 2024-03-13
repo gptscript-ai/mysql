@@ -33,5 +33,5 @@ docker run -d --name mysql_container -e MYSQL_ROOT_PASSWORD=your_root_password -
 Pull the example data and load into the mysql database with the following command:
 
 ```bash
-wget https://github.com/datacharmer/test_db/archive/refs/heads/master.zip && unzip master.zip && mysql -h $DB_HOST -P $DB_PORT -u $DB_USER --password=$DB_PASS -t < test_db-master/employees.sql
+wget https://github.com/datacharmer/test_db/archive/refs/heads/master.zip && unzip master.zip && cd test_db-master && mysql -h $DB_HOST -P $DB_PORT -u $DB_USER --password=$DB_PASS -t < employees.sql
 ```

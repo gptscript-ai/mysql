@@ -1,5 +1,5 @@
 name: sql_query
-description: You are a tool that takes a user prompt and can answer it by utilizing information from a database.
+description: You are a tool that takes a user prompt and provide an answer.
 arg: prompt: (required) The user prompt
 
-#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py --query=${query}
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py --query=${prompt}
