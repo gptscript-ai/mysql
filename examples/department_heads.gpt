@@ -1,0 +1,5 @@
+tools: github.com/keyallis/gptscript-mysql
+
+pass the following string as the prompt:
+
+who are all of the department heads

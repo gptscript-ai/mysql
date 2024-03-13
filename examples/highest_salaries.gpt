@@ -2,4 +2,4 @@ tools: github.com/keyallis/gptscript-mysql
 
 pass the following string as the prompt:
 
-which employee has the highest salary?
+which two employees have the highest current salaries

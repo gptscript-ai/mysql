@@ -1,0 +1,5 @@
+tools: github.com/keyallis/gptscript-mysql
+
+pass the following string as the prompt:
+
+which department has the highest average salary
