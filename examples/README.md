@@ -10,6 +10,8 @@ Since this example requires the ability to access a mysql database with loaded d
 
 ## Setting Environment Variables
 
+These are the same variables that would need to be set when invoking the tool, so whatever they are set to in the process of setting up the example database is what should be passed into the tool calls.
+
 | variable  | example value        |
 | --------- | -------------------- |
 | `DB_USER` | `root`               |

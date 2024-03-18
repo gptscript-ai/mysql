@@ -1,5 +1,29 @@
-name: sql_query
+Name: sql_query
+Tools: db_schema, db_query
+Description: You are an expert in answering questions based on information contained in a database
+Arg: prompt: (required) The user prompt that should be answered
+
+1. Get an understanding of the type of information contained in the database by pulling schema information using the db_schema tool.
+2. Form a valid mysql query based on the schema information to provide an answer to the prompt. If the database does not contain the data required to answer the prompt then you should inform the user and stop execution.
+3. Query the database using the db_query tool and provide the answer. If running the query results in an error it should be reported to the user to provide insight into what might have gone wrong, as well as providing the SQL query that was attempted. If the data returned by running querying the database is not sufficient to answer the question, the user should be informed that the table does not have the required information to answer the question. You should not try to answer the question with any information other than what came from the database.
+
+---
+Name: db_schema
+Description: You are a tool that can retrieve metadata tables information and example table contents from a mysql database
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/db_schema.py
+
+
+---
+Name: db_query
+Description: You are a tool that can retrieve information about tables and columns from a mysql database using a given user query
+Arg: query: (required) The provided SQL query to run
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/db_query.py
+
+---
+name: llama
 description: You are a tool that generates a response based on the provided user prompt, the prompt should be passed as is and should not be changed at all.
 arg: prompt: (required) The user prompt
 
-#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/llama.py

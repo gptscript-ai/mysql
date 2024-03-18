@@ -1,4 +1,4 @@
 pymysql
-argparse
+sqlalchemy
 llama-index
 llama-index-llms-openai

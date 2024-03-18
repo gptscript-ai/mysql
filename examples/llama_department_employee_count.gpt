@@ -1,4 +1,4 @@
-tools: github.com/keyallis/gptscript-mysql
+tools: llama from github.com/keyallis/gptscript-mysql
 
 pass the following string as the prompt:
 
