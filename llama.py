@@ -1,4 +1,5 @@
 import os
+import sys
 import argparse
 import pymysql
 
@@ -19,6 +20,10 @@ defaults = {
 llm = OpenAI(
     api_key=defaults["api_key"],
 )
+
+
+def eprint(s):
+    print(s, file=sys.stderr)
 
 
 def main():
@@ -47,6 +52,10 @@ def main():
         sql_database=sql_database, llm=llm
     )
     response = query_engine.query(prompt)
+    if response.metadata is not None:
+        eprint("=========SQL QUERY=========")
+        eprint(response.metadata['sql_query'])
+        eprint("===========================")
 
     print(response)
 
