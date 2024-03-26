@@ -1,0 +1,100 @@
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MIN(s.salary) AS lowest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY e.emp_no ORDER BY lowest_salary ASC LIMIT 1
+===========================
+
+real	0m12.250s
+user	0m0.209s
+sys	0m0.065s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MIN(s.salary) AS lowest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY e.emp_no ORDER BY lowest_salary ASC LIMIT 1
+===========================
+
+real	0m13.349s
+user	0m0.215s
+sys	0m0.067s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MIN(s.salary) AS lowest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY e.emp_no ORDER BY lowest_salary ASC LIMIT 1
+===========================
+
+real	0m12.199s
+user	0m0.219s
+sys	0m0.072s
+
+Olivera Baek has the lowest current salary, which is 38,623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MIN(s.salary) AS lowest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY e.emp_no ORDER BY lowest_salary ASC LIMIT 1
+===========================
+
+real	0m9.799s
+user	0m0.214s
+sys	0m0.067s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MIN(s.salary) AS lowest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY e.emp_no ORDER BY lowest_salary ASC LIMIT 1
+===========================
+
+real	0m11.525s
+user	0m0.215s
+sys	0m0.067s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MIN(s.salary) AS lowest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY e.emp_no ORDER BY lowest_salary ASC LIMIT 1
+===========================
+
+real	0m10.804s
+user	0m0.218s
+sys	0m0.070s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT employees.emp_no, employees.first_name, employees.last_name, MIN(salaries.salary) AS lowest_salary FROM employees JOIN salaries ON employees.emp_no = salaries.emp_no WHERE salaries.to_date = '9999-01-01' GROUP BY employees.emp_no ORDER BY lowest_salary ASC LIMIT 1
+===========================
+
+real	0m13.831s
+user	0m0.217s
+sys	0m0.069s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, s.salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' ORDER BY s.salary ASC LIMIT 1
+===========================
+
+real	0m11.516s
+user	0m0.216s
+sys	0m0.067s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of 38623.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, s.salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' ORDER BY s.salary ASC LIMIT 1
+===========================
+
+real	0m16.330s
+user	0m0.218s
+sys	0m0.067s
+
+The employee with the lowest current salary is Olivera Baek, with a salary of $38,623.
+
+=========SQL QUERY=========
+SELECT employees.emp_no, employees.first_name, employees.last_name, MIN(salaries.salary) AS min_salary FROM employees JOIN salaries ON employees.emp_no = salaries.emp_no WHERE salaries.to_date = '9999-01-01' GROUP BY employees.emp_no ORDER BY min_salary ASC LIMIT 1
+===========================
+
+real	0m11.441s
+user	0m0.220s
+sys	0m0.070s
+

@@ -1,0 +1,230 @@
+The department heads are as follows:
+- Marketing: Margareta Markovitch, Vishwani Minakawa
+- Finance: Ebru Alpin, Isamu Legleitner
+- Human Resources: Shirish Ossenbruggen, Karsten Sigstam
+- Production: Oscar Ghazalie, Shem Kieras, Krassimir Wegerle, Rosine Cools
+- Development: DeForest Hagimont, Leon DasSarma
+- Quality Management: Rutger Hofmeyr, Peternela Onuegbe, Sanjoy Quadeer, Dung Pesch
+- Sales: Przemyslawa Kaelbling, Hauke Zhang
+- Research: Arie Staelin, Hilary Kambil
+- Customer Service: Yuchang Weedman, Xiaobin Spinelli, Marjo Giarratana, Tonny Butterworth
+
+=========SQL QUERY=========
+SELECT dm.dept_no, d.dept_name, e.first_name, e.last_name
+FROM dept_manager dm
+JOIN departments d ON dm.dept_no = d.dept_no
+JOIN employees e ON dm.emp_no = e.emp_no
+ORDER BY dm.dept_no;
+===========================
+
+real	0m24.784s
+user	0m1.270s
+sys	0m2.707s
+
+The department heads are as follows:
+- **Customer Service**: Tonny Butterworth, Marjo Giarratana, Xiaobin Spinelli, Yuchang Weedman
+- **Development**: DeForest Hagimont, Leon DasSarma
+- **Finance**: Ebru Alpin, Isamu Legleitner
+- **Human Resources**: Shirish Ossenbruggen, Karsten Sigstam
+- **Marketing**: Margareta Markovitch, Vishwani Minakawa
+- **Production**: Krassimir Wegerle, Rosine Cools, Shem Kieras, Oscar Ghazalie
+- **Quality Management**: Peternela Onuegbe, Rutger Hofmeyr, Sanjoy Quadeer, Dung Pesch
+- **Research**: Arie Staelin, Hilary Kambil
+- **Sales**: Przemyslawa Kaelbling, Hauke Zhang
+
+=========SQL QUERY=========
+SELECT dm.emp_no, e.first_name, e.last_name, d.dept_name
+FROM dept_manager dm
+JOIN employees e ON dm.emp_no = e.emp_no
+JOIN departments d ON dm.dept_no = d.dept_no
+ORDER BY d.dept_name;
+===========================
+
+real	0m25.598s
+user	0m2.052s
+sys	0m1.938s
+
+The department heads are as follows:
+- **Customer Service:** Tonny Butterworth, Marjo Giarratana, Xiaobin Spinelli, Yuchang Weedman
+- **Development:** DeForest Hagimont, Leon DasSarma
+- **Finance:** Ebru Alpin, Isamu Legleitner
+- **Human Resources:** Shirish Ossenbruggen, Karsten Sigstam
+- **Marketing:** Margareta Markovitch, Vishwani Minakawa
+- **Production:** Krassimir Wegerle, Rosine Cools, Shem Kieras, Oscar Ghazalie
+- **Quality Management:** Peternela Onuegbe, Rutger Hofmeyr, Sanjoy Quadeer, Dung Pesch
+- **Research:** Arie Staelin, Hilary Kambil
+- **Sales:** Przemyslawa Kaelbling, Hauke Zhang
+
+=========SQL QUERY=========
+SELECT dm.emp_no, e.first_name, e.last_name, d.dept_name
+FROM dept_manager dm
+JOIN employees e ON dm.emp_no = e.emp_no
+JOIN departments d ON dm.dept_no = d.dept_no
+ORDER BY d.dept_name;
+===========================
+
+real	0m25.891s
+user	0m1.318s
+sys	0m2.720s
+
+The department heads are as follows:
+- Marketing: Margareta Markovitch, Vishwani Minakawa
+- Finance: Ebru Alpin, Isamu Legleitner
+- Human Resources: Shirish Ossenbruggen, Karsten Sigstam
+- Production: Oscar Ghazalie, Shem Kieras, Krassimir Wegerle, Rosine Cools
+- Development: DeForest Hagimont, Leon DasSarma
+- Quality Management: Rutger Hofmeyr, Peternela Onuegbe, Sanjoy Quadeer, Dung Pesch
+- Sales: Przemyslawa Kaelbling, Hauke Zhang
+- Research: Arie Staelin, Hilary Kambil
+- Customer Service: Yuchang Weedman, Xiaobin Spinelli, Marjo Giarratana, Tonny Butterworth
+
+=========SQL QUERY=========
+SELECT dm.dept_no, d.dept_name, e.first_name, e.last_name
+FROM dept_manager dm
+JOIN departments d ON dm.dept_no = d.dept_no
+JOIN employees e ON dm.emp_no = e.emp_no
+ORDER BY dm.dept_no;
+===========================
+
+real	0m22.083s
+user	0m1.276s
+sys	0m2.682s
+
+The department heads are as follows:
+- Marketing: Margareta Markovitch, Vishwani Minakawa
+- Finance: Ebru Alpin, Isamu Legleitner
+- Human Resources: Shirish Ossenbruggen, Karsten Sigstam
+- Production: Oscar Ghazalie, Shem Kieras, Krassimir Wegerle, Rosine Cools
+- Development: DeForest Hagimont, Leon DasSarma
+- Quality Management: Rutger Hofmeyr, Peternela Onuegbe, Sanjoy Quadeer, Dung Pesch
+- Sales: Przemyslawa Kaelbling, Hauke Zhang
+- Research: Arie Staelin, Hilary Kambil
+- Customer Service: Yuchang Weedman, Xiaobin Spinelli, Marjo Giarratana, Tonny Butterworth
+
+=========SQL QUERY=========
+SELECT dm.dept_no, d.dept_name, e.first_name, e.last_name
+FROM dept_manager dm
+JOIN departments d ON dm.dept_no = d.dept_no
+JOIN employees e ON dm.emp_no = e.emp_no
+ORDER BY dm.dept_no;
+===========================
+
+real	0m21.347s
+user	0m1.474s
+sys	0m2.521s
+
+The department heads are as follows:
+- **Marketing:** Margareta Markovitch, Vishwani Minakawa
+- **Finance:** Ebru Alpin, Isamu Legleitner
+- **Human Resources:** Shirish Ossenbruggen, Karsten Sigstam
+- **Production:** Oscar Ghazalie, Shem Kieras, Krassimir Wegerle, Rosine Cools
+- **Development:** DeForest Hagimont, Leon DasSarma
+- **Quality Management:** Rutger Hofmeyr, Peternela Onuegbe, Sanjoy Quadeer, Dung Pesch
+- **Sales:** Przemyslawa Kaelbling, Hauke Zhang
+- **Research:** Arie Staelin, Hilary Kambil
+- **Customer Service:** Yuchang Weedman, Xiaobin Spinelli, Marjo Giarratana, Tonny Butterworth
+
+=========SQL QUERY=========
+SELECT dm.dept_no, d.dept_name, e.first_name, e.last_name
+FROM dept_manager dm
+JOIN departments d ON dm.dept_no = d.dept_no
+JOIN employees e ON dm.emp_no = e.emp_no
+ORDER BY dm.dept_no;
+===========================
+
+real	0m20.112s
+user	0m1.379s
+sys	0m2.603s
+
+The department heads are as follows:
+- **Customer Service:** Tonny Butterworth, Marjo Giarratana, Xiaobin Spinelli, Yuchang Weedman
+- **Development:** DeForest Hagimont, Leon DasSarma
+- **Finance:** Ebru Alpin, Isamu Legleitner
+- **Human Resources:** Shirish Ossenbruggen, Karsten Sigstam
+- **Marketing:** Margareta Markovitch, Vishwani Minakawa
+- **Production:** Krassimir Wegerle, Rosine Cools, Shem Kieras, Oscar Ghazalie
+- **Quality Management:** Peternela Onuegbe, Rutger Hofmeyr, Sanjoy Quadeer, Dung Pesch
+- **Research:** Arie Staelin, Hilary Kambil
+- **Sales:** Przemyslawa Kaelbling, Hauke Zhang
+
+=========SQL QUERY=========
+SELECT dm.emp_no, e.first_name, e.last_name, d.dept_name
+FROM dept_manager dm
+JOIN employees e ON dm.emp_no = e.emp_no
+JOIN departments d ON dm.dept_no = d.dept_no
+ORDER BY d.dept_name;
+===========================
+
+real	0m25.991s
+user	0m1.951s
+sys	0m2.048s
+
+The department heads are as follows:
+- Customer Service: Tonny Butterworth, Marjo Giarratana, Xiaobin Spinelli, Yuchang Weedman
+- Development: DeForest Hagimont, Leon DasSarma
+- Finance: Ebru Alpin, Isamu Legleitner
+- Human Resources: Shirish Ossenbruggen, Karsten Sigstam
+- Marketing: Margareta Markovitch, Vishwani Minakawa
+- Production: Krassimir Wegerle, Rosine Cools, Shem Kieras, Oscar Ghazalie
+- Quality Management: Peternela Onuegbe, Rutger Hofmeyr, Sanjoy Quadeer, Dung Pesch
+- Research: Arie Staelin, Hilary Kambil
+- Sales: Przemyslawa Kaelbling, Hauke Zhang
+
+=========SQL QUERY=========
+SELECT dm.emp_no, e.first_name, e.last_name, d.dept_name
+FROM dept_manager dm
+JOIN employees e ON dm.emp_no = e.emp_no
+JOIN departments d ON dm.dept_no = d.dept_no
+ORDER BY d.dept_name;
+===========================
+
+real	0m26.576s
+user	0m2.234s
+sys	0m1.765s
+
+The department heads are as follows:
+- Customer Service: Tonny Butterworth, Marjo Giarratana, Xiaobin Spinelli, Yuchang Weedman
+- Development: DeForest Hagimont, Leon DasSarma
+- Finance: Ebru Alpin, Isamu Legleitner
+- Human Resources: Shirish Ossenbruggen, Karsten Sigstam
+- Marketing: Margareta Markovitch, Vishwani Minakawa
+- Production: Krassimir Wegerle, Rosine Cools, Shem Kieras, Oscar Ghazalie
+- Quality Management: Peternela Onuegbe, Rutger Hofmeyr, Sanjoy Quadeer, Dung Pesch
+- Research: Arie Staelin, Hilary Kambil
+- Sales: Przemyslawa Kaelbling, Hauke Zhang
+
+=========SQL QUERY=========
+SELECT dm.emp_no, e.first_name, e.last_name, d.dept_name
+FROM dept_manager dm
+JOIN employees e ON dm.emp_no = e.emp_no
+JOIN departments d ON dm.dept_no = d.dept_no
+ORDER BY d.dept_name;
+===========================
+
+real	0m33.004s
+user	0m1.329s
+sys	0m2.643s
+
+The department heads are as follows:
+- **Customer Service:** Tonny Butterworth, Marjo Giarratana, Xiaobin Spinelli, Yuchang Weedman
+- **Development:** DeForest Hagimont, Leon DasSarma
+- **Finance:** Ebru Alpin, Isamu Legleitner
+- **Human Resources:** Shirish Ossenbruggen, Karsten Sigstam
+- **Marketing:** Margareta Markovitch, Vishwani Minakawa
+- **Production:** Krassimir Wegerle, Rosine Cools, Shem Kieras, Oscar Ghazalie
+- **Quality Management:** Peternela Onuegbe, Rutger Hofmeyr, Sanjoy Quadeer, Dung Pesch
+- **Research:** Arie Staelin, Hilary Kambil
+- **Sales:** Przemyslawa Kaelbling, Hauke Zhang
+
+=========SQL QUERY=========
+SELECT dm.emp_no, e.first_name, e.last_name, d.dept_name
+FROM dept_manager dm
+JOIN employees e ON dm.emp_no = e.emp_no
+JOIN departments d ON dm.dept_no = d.dept_no
+ORDER BY d.dept_name;
+===========================
+
+real	0m21.800s
+user	0m2.058s
+sys	0m1.921s
+

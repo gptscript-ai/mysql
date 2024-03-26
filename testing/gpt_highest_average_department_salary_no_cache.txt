@@ -1,0 +1,100 @@
+The department with the highest average salary is Sales, with an average salary of 88,842.16.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m15.816s
+user	0m0.219s
+sys	0m0.064s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m11.008s
+user	0m0.200s
+sys	0m0.058s
+
+The department with the highest average salary is Sales, with an average salary of 88,842.16.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no WHERE s.to_date = '9999-01-01' GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m11.957s
+user	0m0.220s
+sys	0m0.069s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m16.605s
+user	0m0.219s
+sys	0m0.072s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_no ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m13.537s
+user	0m0.219s
+sys	0m0.068s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_no ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m12.677s
+user	0m0.218s
+sys	0m0.071s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m12.364s
+user	0m0.219s
+sys	0m0.066s
+
+The department with the highest average salary is Sales, with an average salary of 80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m11.131s
+user	0m0.220s
+sys	0m0.072s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m11.117s
+user	0m0.215s
+sys	0m0.068s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m12.770s
+user	0m0.218s
+sys	0m0.069s
+

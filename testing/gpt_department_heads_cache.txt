@@ -1,0 +1,200 @@
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.489s
+user	0m0.170s
+sys	0m0.040s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.477s
+user	0m0.167s
+sys	0m0.035s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.471s
+user	0m0.164s
+sys	0m0.035s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.497s
+user	0m0.165s
+sys	0m0.036s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.545s
+user	0m0.167s
+sys	0m0.035s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.519s
+user	0m0.166s
+sys	0m0.036s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.931s
+user	0m0.165s
+sys	0m0.036s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.488s
+user	0m0.167s
+sys	0m0.035s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.855s
+user	0m0.165s
+sys	0m0.036s
+
+The department heads are:
+
+- Marketing: Vishwani Minakawa
+- Finance: Isamu Legleitner
+- Human Resources: Karsten Sigstam
+- Production: Oscar Ghazalie
+- Development: Leon DasSarma
+- Quality Management: Dung Pesch
+- Sales: Hauke Zhang
+- Research: Hilary Kambil
+- Customer Service: Yuchang Weedman
+
+=========SQL QUERY=========
+SELECT d.dept_name, e.first_name, e.last_name FROM dept_manager dm INNER JOIN departments d ON dm.dept_no = d.dept_no INNER JOIN employees e ON dm.emp_no = e.emp_no WHERE dm.to_date = '9999-01-01'
+===========================
+
+real	0m0.461s
+user	0m0.164s
+sys	0m0.036s
+

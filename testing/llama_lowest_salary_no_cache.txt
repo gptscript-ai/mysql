@@ -1,0 +1,150 @@
+Olivera Baek has the lowest current salary, which is $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m9.939s
+user	0m1.968s
+sys	0m1.788s
+
+Olivera Baek has the lowest current salary, at $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m8.111s
+user	0m2.144s
+sys	0m1.782s
+
+Olivera Baek has the lowest current salary, which is $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m7.215s
+user	0m1.568s
+sys	0m2.367s
+
+Olivera Baek has the lowest current salary, at $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m7.620s
+user	0m2.037s
+sys	0m1.779s
+
+Olivera Baek has the lowest current salary, which is $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m9.012s
+user	0m1.844s
+sys	0m2.042s
+
+Olivera Baek has the lowest current salary, which is $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m8.510s
+user	0m1.315s
+sys	0m2.602s
+
+Olivera Baek has the lowest current salary, which is $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m9.104s
+user	0m1.334s
+sys	0m2.600s
+
+Olivera Baek has the lowest current salary, at $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m7.654s
+user	0m2.616s
+sys	0m1.359s
+
+Olivera Baek has the lowest current salary, which is $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m8.377s
+user	0m2.045s
+sys	0m1.912s
+
+Olivera Baek has the lowest current salary, which is $38,623.
+
+=========SQL QUERY=========
+SELECT e.emp_no, e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+WHERE s.to_date = '9999-01-01'
+ORDER BY s.salary
+LIMIT 1;
+===========================
+
+real	0m9.160s
+user	0m1.227s
+sys	0m2.724s
+

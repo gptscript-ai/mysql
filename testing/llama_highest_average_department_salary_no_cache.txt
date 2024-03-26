@@ -1,0 +1,165 @@
+Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN salaries s ON de.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m7.173s
+user	0m1.410s
+sys	0m2.519s
+
+The department with the highest average salary is the Sales department, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN salaries s ON de.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m8.544s
+user	0m1.293s
+sys	0m2.643s
+
+Sales
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN employees e ON de.emp_no = e.emp_no
+JOIN salaries s ON e.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m7.383s
+user	0m2.121s
+sys	0m1.847s
+
+The Sales department has the highest average salary, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN employees e ON de.emp_no = e.emp_no
+JOIN salaries s ON e.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m12.096s
+user	0m1.685s
+sys	0m2.319s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN salaries s ON de.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m7.236s
+user	0m1.677s
+sys	0m2.284s
+
+The department with the highest average salary is the Sales department, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN employees e ON de.emp_no = e.emp_no
+JOIN salaries s ON e.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m9.462s
+user	0m2.055s
+sys	0m1.870s
+
+The department with the highest average salary is Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN employees e ON de.emp_no = e.emp_no
+JOIN salaries s ON e.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m9.941s
+user	0m1.808s
+sys	0m2.149s
+
+The department with the highest average salary is the Sales department, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN salaries s ON de.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m8.719s
+user	0m1.541s
+sys	0m2.374s
+
+The department with the highest average salary is the Sales department, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN employees e ON de.emp_no = e.emp_no
+JOIN salaries s ON e.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m10.021s
+user	0m1.282s
+sys	0m2.368s
+
+Sales, with an average salary of $80,667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) AS avg_salary
+FROM departments d
+JOIN dept_emp de ON d.dept_no = de.dept_no
+JOIN salaries s ON de.emp_no = s.emp_no
+GROUP BY d.dept_name
+ORDER BY avg_salary DESC
+LIMIT 1;
+===========================
+
+real	0m8.015s
+user	0m1.775s
+sys	0m2.174s
+

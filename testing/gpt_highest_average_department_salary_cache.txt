@@ -1,0 +1,100 @@
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.450s
+user	0m0.176s
+sys	0m0.041s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.375s
+user	0m0.175s
+sys	0m0.039s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.533s
+user	0m0.177s
+sys	0m0.043s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.319s
+user	0m0.174s
+sys	0m0.038s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.367s
+user	0m0.173s
+sys	0m0.036s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.411s
+user	0m0.174s
+sys	0m0.041s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.373s
+user	0m0.170s
+sys	0m0.039s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.373s
+user	0m0.169s
+sys	0m0.036s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.427s
+user	0m0.172s
+sys	0m0.038s
+
+The department with the highest average salary is Sales, with an average salary of 80667.61.
+
+=========SQL QUERY=========
+SELECT d.dept_name, AVG(s.salary) as avg_salary FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no JOIN salaries s ON de.emp_no = s.emp_no GROUP BY d.dept_name ORDER BY avg_salary DESC LIMIT 1
+===========================
+
+real	0m1.412s
+user	0m0.172s
+sys	0m0.037s
+

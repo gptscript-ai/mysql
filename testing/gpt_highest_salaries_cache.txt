@@ -1,0 +1,130 @@
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.177s
+user	0m0.174s
+sys	0m0.040s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.180s
+user	0m0.171s
+sys	0m0.038s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.184s
+user	0m0.171s
+sys	0m0.039s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.256s
+user	0m0.174s
+sys	0m0.040s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.149s
+user	0m0.174s
+sys	0m0.039s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.169s
+user	0m0.170s
+sys	0m0.038s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.153s
+user	0m0.169s
+sys	0m0.036s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.266s
+user	0m0.173s
+sys	0m0.040s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.155s
+user	0m0.171s
+sys	0m0.036s
+
+The two employees with the highest ever salaries are:
+
+1. Tokuyasu Pesch with a salary of 158,220.
+2. Honesty Mukaidono with a salary of 156,286.
+
+=========SQL QUERY=========
+SELECT e.first_name, e.last_name, MAX(s.salary) AS highest_salary FROM employees e JOIN salaries s ON e.emp_no = s.emp_no GROUP BY e.emp_no ORDER BY highest_salary DESC LIMIT 2
+===========================
+
+real	0m1.220s
+user	0m0.174s
+sys	0m0.039s
+

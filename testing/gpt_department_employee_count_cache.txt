@@ -1,0 +1,180 @@
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.682s
+user	0m0.176s
+sys	0m0.040s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.731s
+user	0m0.173s
+sys	0m0.036s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.737s
+user	0m0.174s
+sys	0m0.042s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.624s
+user	0m0.168s
+sys	0m0.038s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.726s
+user	0m0.170s
+sys	0m0.039s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.778s
+user	0m0.172s
+sys	0m0.041s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.637s
+user	0m0.170s
+sys	0m0.037s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.751s
+user	0m0.169s
+sys	0m0.036s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.646s
+user	0m0.168s
+sys	0m0.038s
+
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m0.654s
+user	0m0.169s
+sys	0m0.037s
+

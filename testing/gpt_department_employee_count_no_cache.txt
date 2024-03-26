@@ -1,0 +1,208 @@
+- Development: 61,386 current employees
+- Sales: 37,701 current employees
+- Production: 53,304 current employees
+- Human Resources: 12,898 current employees
+- Research: 15,441 current employees
+- Quality Management: 14,546 current employees
+- Marketing: 14,842 current employees
+- Customer Service: 17,569 current employees
+- Finance: 12,437 current employees
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_no
+===========================
+
+real	0m18.836s
+user	0m0.231s
+sys	0m0.076s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS num_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m17.184s
+user	0m0.234s
+sys	0m0.081s
+
+
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x0 pc=0x1045861f8]
+
+goroutine 33 [running]:
+fmt.(*buffer).writeString(...)
+	/opt/homebrew/Cellar/go/1.22.1/libexec/src/fmt/print.go:108
+fmt.(*fmt).padString(0x140002f59c8?, {0x0, 0x2})
+	/opt/homebrew/Cellar/go/1.22.1/libexec/src/fmt/format.go:110 +0x23c
+fmt.(*fmt).fmtS(0x104b80da0?, {0x0?, 0x104b80da0?})
+	/opt/homebrew/Cellar/go/1.22.1/libexec/src/fmt/format.go:359 +0x40
+fmt.(*pp).fmtString(0x20?, {0x0?, 0x140002a8080?}, 0x0?)
+	/opt/homebrew/Cellar/go/1.22.1/libexec/src/fmt/print.go:497 +0xe4
+fmt.(*pp).printArg(0x140002b68f0, {0x104b80da0, 0x140002b4320}, 0x73)
+	/opt/homebrew/Cellar/go/1.22.1/libexec/src/fmt/print.go:741 +0x2fc
+fmt.(*pp).doPrintf(0x140002b68f0, {0x104a41cdb, 0x12}, {0x140002f5cc8, 0x2, 0x2})
+	/opt/homebrew/Cellar/go/1.22.1/libexec/src/fmt/print.go:1075 +0x2d8
+fmt.Sprintf({0x104a41cdb, 0x12}, {0x140002f5cc8, 0x2, 0x2})
+	/opt/homebrew/Cellar/go/1.22.1/libexec/src/fmt/print.go:239 +0x4c
+github.com/gptscript-ai/gptscript/pkg/types.CompletionMessage.String({{0x140002487c7, 0x9}, {0x1400000c690, 0x1, 0x1}, 0x0})
+	/Users/oscarward/go/github.com/keyallis/gptscript/pkg/types/completion.go:84 +0x230
+github.com/gptscript-ai/gptscript/pkg/runner.streamProgress.func1()
+	/Users/oscarward/go/github.com/keyallis/gptscript/pkg/runner/runner.go:174 +0x148
+created by github.com/gptscript-ai/gptscript/pkg/runner.streamProgress in goroutine 1
+	/Users/oscarward/go/github.com/keyallis/gptscript/pkg/runner/runner.go:165 +0xc8
+
+real	0m1.673s
+user	0m0.014s
+sys	0m0.014s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m18.179s
+user	0m0.235s
+sys	0m0.080s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS employee_count FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m21.756s
+user	0m0.234s
+sys	0m0.079s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m18.863s
+user	0m0.239s
+sys	0m0.082s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m20.644s
+user	0m0.236s
+sys	0m0.083s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS num_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m21.790s
+user	0m0.232s
+sys	0m0.076s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m15.642s
+user	0m0.237s
+sys	0m0.080s
+
+The current number of employees in each department is:
+
+- Development: 61,386
+- Sales: 37,701
+- Production: 53,304
+- Human Resources: 12,898
+- Research: 15,441
+- Quality Management: 14,546
+- Marketing: 14,842
+- Customer Service: 17,569
+- Finance: 12,437
+
+=========SQL QUERY=========
+SELECT d.dept_name, COUNT(de.emp_no) AS current_employees FROM departments d JOIN dept_emp de ON d.dept_no = de.dept_no WHERE de.to_date = '9999-01-01' GROUP BY d.dept_name
+===========================
+
+real	0m17.532s
+user	0m0.236s
+sys	0m0.082s
+
