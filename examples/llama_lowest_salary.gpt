@@ -1,5 +1,0 @@
-tools: llama from ../tool.gpt
-
-pass the following string as the prompt:
-
-which employee has the lowest current salary

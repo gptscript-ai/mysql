@@ -20,4 +20,5 @@ Since this example requires the ability to access a mysql database with loaded d
 
 ## Examples
 
-### Tool Usage
+Examples of tool usage can be seen in the examples directory. The simple overview of the strucutre is the inclusion of the tool, and then providing the prompt to be answered.
+

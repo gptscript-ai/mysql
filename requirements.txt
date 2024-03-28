@@ -1,4 +1,2 @@
 pymysql
 sqlalchemy
-llama-index
-llama-index-llms-openai
