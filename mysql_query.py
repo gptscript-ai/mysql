@@ -25,7 +25,7 @@ def execute_query(host: str, port: int, username: str, password: str, database: 
 
 if __name__ == "__main__":
 
-    query = os.environ["query"]
+    query = os.environ["QUERY"]
 
     username = os.environ["DB_USER"]
     password = os.environ["DB_PASS"]
